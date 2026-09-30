@@ -432,3 +432,13 @@ html.js .radar.grow.in .v{transform:none;opacity:1;transition:transform .9s cubi
 .mini{margin-top:14px;display:flex;flex-direction:column;gap:8px}
 .mini-row span{display:block;font:600 10.5px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--faint);margin-bottom:4px}
 .mini-row .meter{height:8px;margin-bottom:0}
+
+/* v4: larger hero headshot */
+.hero .avatar{width:136px;height:136px;padding:3px}
+.hero .avatar img{inset:3px;width:calc(100% - 6px);height:calc(100% - 6px)}
+.hero .avatar span{font-size:38px}
+.hero-top{align-items:flex-start}
+.hero h1{margin-top:16px}
+@media (max-width:640px){.hero .avatar{width:112px;height:112px}}
+.certlist.two{grid-template-columns:repeat(2,1fr)}
+@media (max-width:640px){.certlist.two{grid-template-columns:1fr}}
