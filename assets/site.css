@@ -442,3 +442,5 @@ html.js .radar.grow.in .v{transform:none;opacity:1;transition:transform .9s cubi
 @media (max-width:640px){.hero .avatar{width:112px;height:112px}}
 .certlist.two{grid-template-columns:repeat(2,1fr)}
 @media (max-width:640px){.certlist.two{grid-template-columns:1fr}}
+.vcerts-prog{grid-template-columns:repeat(3,1fr)}
+@media (max-width:640px){.vcerts-prog{grid-template-columns:none}}
